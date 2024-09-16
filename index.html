@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh Sugreevagari Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container ">
+            <a class="navbar-brand" href="#home">Lokesh Sugreevagari</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex justify-content-center align-items-center text-center section-hidden">
+        <div>
+            <h1>Hello, I'm <span style="color: aqua;">Lokesh Sugreevagari</span></h1>
+            <h4>Frontend Developer</h4>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-hidden">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <img src="/images/mypic17.jpg" alt="Lokesh Sugreevagari">
+            <p class="mt-4"><b>I'm a Frontend Developer with a passion for creating dynamic web applications. Currently, I am pursuing a Java Full Stack training program.</b></p>
+            <p>I am Lokesh Sugreevagari, a passionate web developer with a strong foundation in both front-end and back-end technologies. 
+                Having recently completed my Master of Computer Applications (MCA) from Siddharth Institute of Engineering and Technology with an
+                 impressive 88.7%, I have developed a wide range of technical skills, including HTML, CSS, JavaScript, MySQL, and Java. 
+                 I have hands-on experience through internships and personal projects, such as my web-based Precision Inventory Management System,
+                  which streamlined inventory processes for businesses. Currently, I am further honing my skills in Java Full Stack development,
+                   while remaining adaptable, disciplined, and eager to contribute innovative solutions. You can explore my work on 
+                   <a href="https://github.com/S-Lokesh96">GitHub</a> or connect 
+                   with me on <a href="https://www.linkedin.com/in/lokesh-sugreevagari-52014a28b/">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 section-hidden">
+        <div class="container text-center">
+            <h2>Projects</h2>
+            <div class="mb-5">
+                <h4>Precision Inventory Management System</h4>
+                <div class="project-images">
+                    <img src="/images/login.jpg" alt="Project Image 1" onclick="openModal('login.jpg')">
+                    <img src="/images/add new product.jpg" alt="Project Image 2" onclick="openModal('add new product.jpg')">
+                    <img src="/images/manage members.jpg" alt="Project Image 3" onclick="openModal('manage members.jpg')">
+                    <img src="/images/add members.jpg" alt="Project Image 4" onclick="openModal('add members.jpg')">
+                    <img src="/images/user permission.jpg" alt="Project Image 5" onclick="openModal('user permission.jpg')">
+                    <p>A web-based system to streamline inventory control for businesses.<br> Key functionalities include item, category, warehouse, element, product, order, and member management.</p>
+                </div>
+                <br><br>
+                <h4>TechnoHacks Internship Projects</h4>
+                <div class="project-images">
+                    <img src="/images/Screenshot (278).jpg" alt="Project Image 1" onclick="openModal('Screenshot (278).jpg')">
+                    <img src="/images/Screenshot (279).jpg" alt="Project Image 2" onclick="openModal('Screenshot (279).jpg')">
+                    <img src="/images/Screenshot (280).jpg" alt="Project Image 3" onclick="openModal('Screenshot (280).jpg')">
+                    <p>During my internship at TechnoHacks EduTech, I developed <br>a login page, countdown timer, and calculator as part of my web development training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 section-hidden">
+        <div class="container text-center">
+            <h2>Education</h2><br><br><br><br>
+            <div class="education">
+                <div class="edu-item">
+                    <i class="fa-solid fa-school"></i>
+                    <p><b>MCA</b><br>Siddharth Institute of <br>Engineering and Technology<br>88.7%</p>
+                </div>
+                <div class="edu-item">
+                    <i class="fa-solid fa-book"></i>
+                    <p><b>B.Sc</b><br>Vedha Vasa Degree College<br>86%</p>
+                </div>
+                <div class="edu-item">
+                    <i class="fa-solid fa-book-open"></i>
+                    <p><b>Intermediate</b><br>Sri Sai Jyothi Jr College<br>71.5%</p>
+                </div>
+                <div class="edu-item">
+                    <i class="fa-solid fa-book-reader"></i>
+                    <p><b>SSC</b><br>Z P High School<br>82%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 section-hidden">
+        <div class="container text-center">
+            <h2>Skills</h2><br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Frontend</h4><br>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%;">
+                            <i class="fas fa-code"></i> HTML
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;">
+                            <i class="fab fa-css3-alt"></i> CSS
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;">
+                            <i class="fab fa-js"></i> JavaScript
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%;">
+                            <i class="fab fa-bootstrap"></i> Bootstrap
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 20%;">
+                            <i class="fab fa-react"></i> ReactJS
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Backend</h4><br>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;">
+                            <i class="fab fa-java"></i> Java
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;">
+                            <i class="fas fa-database"></i> MySQL
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%;">
+                            <i class="fas fa-code-branch"></i> .NET
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;">
+                            <i class="fab fa-csharp"></i> C#
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Others</h4><br>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%;">
+                            <i class="fab fa-git"></i> Git
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;">
+                            <i class="fab fa-github"></i> GitHub
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 section-hidden">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contactForm">
+                <input type="hidden" name="access_key" value="d1161ca1-95f2-4c8f-8119-18824924802e">
+                
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                
+                <div class="mb-3">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+                
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                
+                <div class="mb-3">
+                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Your Message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Lokesh Sugreevagari</p>
+        <a href="https://github.com/S-Lokesh96" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/lokesh-sugreevagari-52014a28b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/ig_loki_96/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </footer>
+
+    <!-- Project Image Modal -->
+    <div id="imageModal">
+        <span onclick="closeModal()">&times;</span>
+        <img id="modalImage" alt="Large Project Image">
+    </div>
+
+    <script>
+
+
+       
+    </script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

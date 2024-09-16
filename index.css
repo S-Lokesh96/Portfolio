@@ -1,0 +1,175 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
+}
+section {
+    min-height: 100vh;
+    padding: 80px 0;
+}
+/* Section backgrounds */
+#home {
+    background-image: url('/images/p2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#about {
+    background-color: #e0f7fa;
+}
+#projects {
+    background-color: #ffe0b2;
+}
+#education {
+    background-color: #f3e5f5;
+}
+#skills {
+    background-color: #fff9c4;
+}
+#contact {
+    background-color: #c8e6c9;
+}
+.form-control:focus{
+    border:  3px solid black;
+}
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: white;
+    padding: 10px;
+}
+footer a:hover {
+    color: aqua;
+}
+nav a {
+    color: white;
+}
+nav a:hover {
+    color: aqua;
+}
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+/* Project images and modal */
+.project-images img {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.project-images img:hover {
+    transform: scale(1.1);
+}
+/* Modal for project images */
+#imageModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+#imageModal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+#imageModal span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+/* Skills with logos and progress bars */
+/* .skill {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.skill img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+*/
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 100%;
+    gap: 50px;
+}
+
+
+.edu-item:hover {
+    background-color: #ffe5fb;
+}
+.edu-item:hover {
+    transform: scale(1.4);
+}
+
+.mini-stamp {
+    flex-shrink: 0;
+    margin-right: 15px;
+    font-size: 24px; /* Adjust icon size */
+}
+
+.edu-details p {
+    margin: 5px 0;
+}
+
+.edu-details p strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress {
+    height: 40px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+    line-height: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px; /* Adjust padding to make space for the icon */
+    position: relative;
+}
+
+.progress-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.progress-bar i {
+    position: absolute;
+    left: 10px; /* Adjust position based on your needs */
+    font-size: 18px; /* Adjust icon size as needed */
+}
+/* .container img:hover{
+    transform: scale(1.5);
+} */
