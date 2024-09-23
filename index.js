@@ -21,16 +21,6 @@ window.onclick = function(event) {
     }
 }
 
-// Form submit handling with EmailJS or mailto
-// document.getElementsByClassName('contactForm').addEventListener('submit', function(e) {
-//     e.preventDefault();
-//     const name = document.getElementById('name').value;
-//     const phone = document.getElementById('phone').value;
-//     const email = document.getElementById('email').value;
-//     const message = document.getElementById('message').value;
-//     // window.location.href = `mailto:sg.lokesh96@gmail.com?subject=Portfolio Inquiry&body=Name: ${name}%0D%0APhone: ${phone}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
-// });
-
 document.getElementsByClassName('contactForm').addEventListener('submit', function(event) {
 let isValid = true;
 
