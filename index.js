@@ -61,8 +61,6 @@ console.log("hrllo");
 document.querySelectorAll(".form-control").textContent="";
 });
 
-
-
 // Scroll animations for sections
 const sections = document.querySelectorAll('section');
 const observer = new IntersectionObserver(entries => {
