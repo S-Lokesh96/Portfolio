@@ -94,16 +94,6 @@ h2 {
     font-size: 2rem;
     cursor: pointer;
 }
-/* Skills with logos and progress bars */
-/* .skill {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.skill img {
-    width: 50px;
-    margin-bottom: 10px;
-}
-*/
 .education {
     display: flex;
     flex-wrap: wrap;
