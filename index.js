@@ -2,7 +2,6 @@
  function openModal(imageSrc) {
     var modal = document.getElementById('imageModal');
     var modalImg = document.getElementById('modalImage');
-    
     modal.style.display = 'flex'; // Use 'flex' to center the image
     modalImg.src = imageSrc; // Set the source of the image in the modal
 }
